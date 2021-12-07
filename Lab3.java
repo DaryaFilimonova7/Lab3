@@ -23,7 +23,7 @@ public class Lab3 {
         // Поиск подстроки,которая удовлетворяет условию:
         Matcher m = p.matcher(password);
         if (m.find( )) {
-            System.out.println("The password is strong. "); // + m.group(0) );
+            System.out.println("The password is strong. "); 
 
         }else {
             System.out.println("The password is weak. Please, restart the program and try again. ");
